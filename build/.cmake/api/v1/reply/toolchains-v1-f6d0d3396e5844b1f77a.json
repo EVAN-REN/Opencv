@@ -17,6 +17,9 @@
 					"linkDirectories" : 
 					[
 						"/opt/homebrew/Cellar/opencv/4.8.1_2/lib",
+						"/opt/homebrew/Cellar/qt/6.6.0/lib",
+						"/opt/homebrew/Cellar/llvm/17.0.6/lib",
+						"/opt/homebrew/Cellar/llvm/17.0.6/lib/c++",
 						"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib"
 					],
 					"linkFrameworkDirectories" : 
@@ -51,6 +54,9 @@
 					"linkDirectories" : 
 					[
 						"/opt/homebrew/Cellar/opencv/4.8.1_2/lib",
+						"/opt/homebrew/Cellar/qt/6.6.0/lib",
+						"/opt/homebrew/Cellar/llvm/17.0.6/lib",
+						"/opt/homebrew/Cellar/llvm/17.0.6/lib/c++",
 						"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib"
 					],
 					"linkFrameworkDirectories" : 

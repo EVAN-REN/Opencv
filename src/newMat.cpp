@@ -28,6 +28,28 @@ int main(){
     // //截取某一矩阵中部分，这里截取行为3-4，列3-4
     // Mat f = Mat(e, Range(2, 4), Range(2, 4));
 
+    // //创建一个全1矩阵(只能用于单通道，多通道时，只有第一个通道都是1)
+    // Mat g = Mat::ones(Size(8,8), CV_8UC1);
+
+    // //创建一个空白矩阵
+    // Mat h = Mat::zeros(Size(8,8), CV_8UC1);
+
+    // //赋值(只会赋值第一个通道)
+    // Mat i = Mat::zeros(Size(8,8), CV_8UC3);
+    // i = 127;
+
+    // //标量赋值
+    // Mat i = Mat::zeros(Size(8,8), CV_8UC3);
+    // i = Scalar(127, 127, 127);
+
+    // // 深拷贝
+    // Mat m1 = a.clone();
+    // Mat m2; a.copyTo(m2);
+
+    // // 浅拷贝
+    // Mat m3 = a;
+
+
     // cout << c0 << endl;
     // cout << c1 << endl;
     // cout << c2 << endl;
@@ -55,22 +77,25 @@ int main(){
 /*--------------------------------------*/
     //矩阵的四则运算
 
-    Mat a = (cv::Mat_<int>(3,3) << 1, 2, 3, 4, 5, 6, 7, 8, 9);
-    Mat b = (cv::Mat_<int>(3,3) << 1, 2, 3, 7, 8, 9, 4, 5, 6);
-    Mat c = (cv::Mat_<double>(3,3) << 1.0, 2.1, 3.2, 4.0, 5.1, 6.2, 2, 2, 2);
-    Mat d = (cv::Mat_<double>(3,3) << 1.0, 2.1, 3.2, 4.0, 5.1, 6.2, 2, 2, 2);
+    // Mat a = (cv::Mat_<int>(3,3) << 1, 2, 3, 4, 5, 6, 7, 8, 9);
+    // Mat b = (cv::Mat_<int>(3,3) << 1, 2, 3, 7, 8, 9, 4, 5, 6);
+    // Mat c = (cv::Mat_<double>(3,3) << 1.0, 2.1, 3.2, 4.0, 5.1, 6.2, 2, 2, 2);
+    // Mat d = (cv::Mat_<double>(3,3) << 1.0, 2.1, 3.2, 4.0, 5.1, 6.2, 2, 2, 2);
 
-    cout << "两个矩阵的和=" << endl << a + b << endl;
-    cout << "两个矩阵的差=" << endl << c - d << endl;
-    cout << "矩阵数乘=" << endl << 2 * a << endl;
-    cout << "矩阵数除=" << endl << d / 2.0 << endl;
-    cout << "矩阵减数=" << endl << a - 1 << endl;
+    // cout << "两个矩阵的和=" << endl << a + b << endl;
+    // cout << "两个矩阵的差=" << endl << c - d << endl;
+    // cout << "矩阵数乘=" << endl << 2 * a << endl;
+    // cout << "矩阵数除=" << endl << d / 2.0 << endl;
+    // cout << "矩阵减数=" << endl << a - 1 << endl;
 
-    cout << "两矩阵相乘=" << endl << c * d << endl;
-    cout << "矩阵内积=" << endl << a.dot(b) << endl;
-    cout << "矩阵对应位相乘=" << endl << a.mul(b) << endl;
+    // cout << "两矩阵相乘=" << endl << c * d << endl;
+    // cout << "矩阵内积=" << endl << a.dot(b) << endl;
+    // cout << "矩阵对应位相乘=" << endl << a.mul(b) << endl;
 
-    cout << "两个矩阵最小值=" << endl << min(a, b) << endl;
+    // cout << "两个矩阵最小值=" << endl << min(a, b) << endl;
+
+
+
 
     return 0;
 }

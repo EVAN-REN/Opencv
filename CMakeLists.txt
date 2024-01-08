@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(opencv VERSION 0.1.0 LANGUAGES C CXX)
 
-set(OpenCV_DIR /opt/homebrew/Cellar/opencv/4.8.1_2)
+set(OpenCV_DIR /opt/homebrew/Cellar/opencv/4.8.1_5)
 
 find_package(OpenCV REQUIRED)
 
@@ -9,7 +9,7 @@ find_package(OpenCV REQUIRED)
 set(EXECUTABLE_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/bin")  
 
 set(DIR_SRCS
-    ./src/newImage.cpp
+    ./src/newImage09.cpp  
 )
 
 # 指定生成目标

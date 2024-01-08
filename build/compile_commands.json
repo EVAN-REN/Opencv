@@ -1,8 +1,8 @@
 [
 {
   "directory": "/Users/ren/Documents/GitHub/Opencv/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.8.1_2/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/main_executable.dir/src/newImage.cpp.o -c /Users/ren/Documents/GitHub/Opencv/src/newImage.cpp",
-  "file": "/Users/ren/Documents/GitHub/Opencv/src/newImage.cpp",
-  "output": "CMakeFiles/main_executable.dir/src/newImage.cpp.o"
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/main_executable.dir/src/newImage09.cpp.o -c /Users/ren/Documents/GitHub/Opencv/src/newImage09.cpp",
+  "file": "/Users/ren/Documents/GitHub/Opencv/src/newImage09.cpp",
+  "output": "CMakeFiles/main_executable.dir/src/newImage09.cpp.o"
 }
 ]
